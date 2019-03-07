@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title> Calculator</title>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <form  name="form">
+                <input class='screen' id="afisare"  name="textview">
+             </form> 
+            <div class="btn btn1" id="1" onclick="insert(1)"><h1>1</h1> </div>
+            <div class="btn btn2" id="2" onclick="insert(2)"><h1>2</h1> </div>
+            <div class="btn btn3" id="3" onclick="insert(3)"><h1>3</h1> </div>
+            <div class="btn btn4" id="4" onclick="insert(4)"><h1>4</h1> </div>
+            <div class="btn btn5" id="5" onclick="insert(5)"><h1>5</h1> </div>
+            <div class="btn btn6" id="6" onclick="insert(6)"><h1>6</h1> </div>
+            <div class="btn btn7" id="7" onclick="insert(7)"><h1>7</h1> </div>
+            <div class="btn btn8" id="8" onclick="insert(8)"><h1>8</h1> </div>
+            <div class="btn btn9" id="9" onclick="insert(9)"><h1>9</h1> </div>
+            <div class="btn btn0" id="0" onclick="insert(0)"><h1>0</h1> </div>
+            <div class="btn btnplus" id="+" onclick="insert('+')"><h1>+</h1> </div>
+            <div class="btn btnequal" id="egal" onclick="equal()"><h1>=</h1> </div>
+            <div class="btn btnminus" id="-" onclick="insert('-')"><h1>-</h1> </div>
+            <div class="btn btninmultit" id="*" onclick="insert('*')"><h1>*</h1></div>
+            <div class="btn btnimpartit" id="/" onclick="insert('/')"><h1>/</h1></div>
+            <div class="btn btnC" id="C" onclick="clean()"><h1>c</h1></div>
+            <div class="btn btnBack" id="del" onclick="back()"><h1>Del</h1></div>
+            <div class="btn btnDot"  id="dot" onclick="insert('.')"><h1>.</h1></div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
